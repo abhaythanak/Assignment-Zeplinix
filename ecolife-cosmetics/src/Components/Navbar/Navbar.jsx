@@ -5,7 +5,7 @@ export default function Navbar() {
 
     return(
         <>
-        <div className="absolute mt-20 z-50 md:w-3/4 p-4 md:p-1 flex justify-between items-center shadow-lg  bg-white text-black font-semibold rounded">
+        <div className="absolute mt-20 z-50 md:w-3/4 p-3 md:p-1 flex justify-between items-center shadow-lg  bg-white text-black font-semibold rounded">
             <h1 className="text-3xl ml-3 font-serif h1-with-line cursor-pointer hover:scale-110 hover:z-50 transition-all duration-300 ease-in-out">Ecolife</h1>
             <div className="nav-items hidden md:flex  lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow ">
                 <ul className="flex justify-center py-10  lg:flex lg:items-stretch lg:justify-end ml-auto gap-3  ">
@@ -37,12 +37,16 @@ export default function Navbar() {
           <h3 to="/">Home</h3>
           </li>
           <li className="menuItem  p-3 hover:scale-110">
-          <h3 to="/about">About</h3>
+          <h3 to="/about">Beauty & Heak</h3>
+          </li>
+          <li className="menuItem  p-3 hover:scale-110">
+          <h3 to="/about">Health Care</h3>
           </li>
           <li className="menuItem p-3 hover:scale-110">
-          <h3 to="/contact">ContactUs</h3>
+          <h3 to="/contact">Prices Drop</h3>
           </li>
           <li className="menuItem p-3 hover:scale-110">
+          <h3 to="/contact">Contact US</h3>
           </li>
         </ul>:null}
         </div>

@@ -10,10 +10,10 @@ export default function Hero() {
           <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
             <div className='md:left-[10%] max-w-[1100px] m-auto absolute p-4 flex items-center justify-center flex-col'>
               <p>ICONIC MAKEUP COLLECTIONS</p>
-              <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl'>
+              <h1 className='font-bold text-4xl md:text-6xl drop-shadow-2xl'>
                 Makeup Which Enhance Your Natural Beauty
               </h1>
-              <button className='bg-white text-black mt-10 p-2 rounded-2xl font-semibold font-sans'>SHOP NOW</button>
+              <button className='bg-white text-black mt-10 p-2 rounded-2xl font-semibold font-sans transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl'>SHOP NOW</button>
             </div>
           </div>
         </div>
