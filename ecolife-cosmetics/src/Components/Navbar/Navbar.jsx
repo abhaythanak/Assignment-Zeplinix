@@ -32,21 +32,21 @@ export default function Navbar() {
       }
 
       {toggle?
-            <ul className="md:hidden absolute flex mt-8 flex-col  bg-gray-900 text-white p-2 rounded-sm">
+            <ul className="md:hidden absolute flex mt-8 flex-col  bg-pink-300 text-blackp-2 rounded-lg">
           <li className="menuItem p-3 hover:scale-110 hover:z-50 transition-all duration-300 ease-in-out">
-          <h3 to="/">Home</h3>
+          <h3 >Home</h3>
           </li>
           <li className="menuItem  p-3 hover:scale-110">
-          <h3 to="/about">Beauty & Heak</h3>
+          <h3 >Beauty & Heak</h3>
           </li>
           <li className="menuItem  p-3 hover:scale-110">
-          <h3 to="/about">Health Care</h3>
+          <h3 >Health Care</h3>
           </li>
           <li className="menuItem p-3 hover:scale-110">
-          <h3 to="/contact">Prices Drop</h3>
+          <h3 >Prices Drop</h3>
           </li>
           <li className="menuItem p-3 hover:scale-110">
-          <h3 to="/contact">Contact US</h3>
+          <h3 >Contact US</h3>
           </li>
         </ul>:null}
         </div>
