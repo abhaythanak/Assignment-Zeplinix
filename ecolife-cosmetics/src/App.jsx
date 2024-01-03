@@ -3,6 +3,7 @@ import './App.css'
 import Hero from "./Components/Hero/Hero"
 import Cards from "./Components/Cards/Cards"
 import ProductAds from "./Components/ProductAds/Productads"
+import Deals from "./Components/Deals/Deals"
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
     <Hero/>
     <Cards Title={"Best Sellers"} heading={"Add bestselling products to weekly line up"}/>
     <ProductAds/>
+    <Deals/>
     <Cards Title={"New Arrivals"} heading={"Add New products to weekly line up"} />
     
       
