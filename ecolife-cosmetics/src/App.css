@@ -1,0 +1,13 @@
+.h1-with-line:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #000; /* Change the color as needed */
+    transition: width 0.3s;
+  }
+
+  /* Apply styles on hover to show the bottom line */
+  .h1-with-line:hover:after {
+    width: 100%;
+  }
